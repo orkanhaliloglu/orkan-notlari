@@ -1,0 +1,35 @@
+:root {
+  /* Michael Jordan x V for Vendetta Theme */
+  --background: #050505;
+  /* Deep Black */
+  --foreground: #ededed;
+  /* Off-White */
+
+  --accent: #CE1141;
+  /* Chicago Bulls Red */
+  --accent-hover: #ff0000;
+  /* Bright Blood Red */
+
+  --muted: #333333;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
