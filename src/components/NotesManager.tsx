@@ -196,7 +196,6 @@ export default function NotesManager() {
                         border: '1px solid transparent',
                         transition: 'border-color 0.2s',
                         position: 'relative',
-                        group: 'note-item'
                     }}
                         onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'}
                         onMouseLeave={e => e.currentTarget.style.borderColor = 'transparent'}
